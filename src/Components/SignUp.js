@@ -4,7 +4,7 @@ import '../App.css';
 const SignUp = () => {
     return (
         <div className='signUpBody'>
-            <div className='signUpBox' >
+            {/* <div className='signUpBox' > */}
                 <div className='bigCircle ' />
                 <div style={{ left: 1080, top: 497, position: 'absolute', textAlign: 'right', color: 'white', fontSize: 16, fontFamily: 'Inter', fontWeight: '500', wordWrap: 'break-word' }}>Want to land a job?<br />start your journey Today!</div>
                 <div className = 'smallCircle' />
@@ -43,7 +43,7 @@ const SignUp = () => {
                     </div>
                 </div>
                 <div style={{ left: 251, top: 732, position: 'absolute' }}><span style={{ color: 'black', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word' }}>Already have an account?</span><span style={{ color: 'black', fontSize: 16, fontFamily: 'Inter', fontWeight: '600', wordWrap: 'break-word' }}> </span><span style={{ color: '#3B62FF', fontSize: 16, fontFamily: 'Inter', fontWeight: '600', wordWrap: 'break-word' }}>Login</span></div>
-            </div>
+            {/* </div> */}
         </div>
     )
 }
