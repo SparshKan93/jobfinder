@@ -9,9 +9,16 @@ const JobPosts = () => {
     return (
         <div style= {{display: 'flex'}} >
             <div style={{ width: 300, height: 600, margin:(25, 25, 0, 25), background: '#D9D9D9', borderRadius: 24 }} />
+            <div className='container'>
+                <h4 className='my-4'>Showing results number</h4>
+            <div className="row">
             {posts.map((post)=>{
-                return <PostCard key={post._id} post={post} />
+                return   <div className="col-md-12" key={post._id} >
+                 <PostCard post={post} />
+              </div>
             })}
+            </div>
+            </div>
         </div>
         // <div style={{ marginLeft: 205, height: '100%', top:-100, position: 'relative', background: 'white' }}>   
         //     <div style={{ left: 129, top: 271, position: 'absolute', color: 'black', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word' }}>Suggest similar jobs with toggle</div>
