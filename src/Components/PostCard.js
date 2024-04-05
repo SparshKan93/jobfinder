@@ -20,7 +20,7 @@ const PostCard = (props) => {
                         <a href="#" class="card-link">Another link</a> */}
                     </div>
             </div>
-            {/* <div style={{ 
+            { <div style={{ 
             maxWidth: '45%', 
             margin: '10px', 
             border: '1px solid #ccc', 
@@ -55,7 +55,7 @@ const PostCard = (props) => {
                 <div><strong>Location:</strong> {post.location}</div>
                 <div><strong>Duration:</strong> {post.duration}</div>
                 {/* Add more details as needed */}
-            {/* </div>
+            </div>
             <div style={{ 
                 marginTop: '10px', 
                 display: 'flex', 
@@ -75,7 +75,7 @@ const PostCard = (props) => {
                 }}>Apply now</button>
             </div>
         </div>
-        {/* <div style={{ width: 925, paddingLeft: 24, paddingRight: 24, paddingTop: 20, paddingBottom: 20, left: 415, top: 200, position: 'absolute', background: 'white', borderRadius: 24, overflow: 'hidden', border: '1px rgba(0, 0, 0, 0.50) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex' }}>
+        } <div style={{ width: 925, paddingLeft: 24, paddingRight: 24, paddingTop: 20, paddingBottom: 20, left: 415, top: 200, position: 'absolute', background: 'white', borderRadius: 24, overflow: 'hidden', border: '1px rgba(0, 0, 0, 0.50) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex' }}>
         <div style={{ flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 11, display: 'flex' }}>
             <div style={{ justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'inline-flex' }}>
                 <div style={{ width: 61, height: 61, background: '#D9D9D9', borderRadius: 9999 }} />
@@ -125,9 +125,9 @@ const PostCard = (props) => {
                 </div>
             </div>
         </div>
-        </div> */}
         </div>
-    )
+        </div>
+    )    
 }
 
 export default PostCard;

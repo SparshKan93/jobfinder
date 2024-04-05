@@ -1,11 +1,11 @@
-import React from 'react';  
-// import postContext from '../context/posts/postContext';
-// import PostCard from './PostCard';
-// , { useContext }
+import React , { useContext } from 'react';  
+import postContext from '../context/posts/postContext';
+import PostCard from './PostCard';
+
 
 const JobPosts = () => {
-    // const context = useContext(postContext);
-    // const {posts} = context;
+    const context = useContext(postContext);
+    const {posts} = context;
     return (
         <div style={{ marginLeft: 205, height: '100%', top:-100, position: 'relative', background: 'white' }}>
             <div style={{ width: 295, height: 624, left: 100, top: 154, position: 'absolute', background: '#D9D9D9', borderRadius: 24 }} />
@@ -16,9 +16,9 @@ const JobPosts = () => {
                 <div style={{ width: 28, height: 28, left: 247, top: 5, position: 'absolute' }}>
                 </div>
             </div>
-            {/* {posts.map((post)=>{
+             {posts.map((post)=>{
                 return <PostCard key={post._id} post={post} />
-            })} */}
+            })} 
             
         </div>
     )
