@@ -1,24 +1,31 @@
+/* 
+* {
+  width: 0%;
+  height: 0%
+} */
+
 .App {
   text-align: center;
 }
 .signUpBody {
-  margin-left: 226px;
-   height: 100%;
-    position: relative;
-     background: white 
+  height: 890px;
+  width:100%;
+  position: relative;
+  background: white;
+  overflow: hidden;
 }
 
 .signUpBox {
   width: 1440px;
-   height: 900px;
-    left: 0;
-     top: 0;
-     position: absolute;
-     background: white;
-     box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.25);
-     border-radius: 48px;
-     /* border-top-right-radius: 48px; */
-     overflow: hidden;
+  height: 900px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background: white;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 48px;
+  /* border-top-right-radius: 48px; */
+  overflow: hidden;
 }
 
 .bigCircle {
@@ -26,13 +33,14 @@
   height: 942px;
   left: 720px;
   top: 41px;
-   position: absolute;
-   background: #3B62FF;
-   border-radius: 9999px
+  position: absolute;
+  background: #3b62ff;
+  border-radius: 9999px;
 }
 
 .smallCircle {
   width: 451px;
+<<<<<<< HEAD
     height: 451px;
     left: 1143px;
     top: 680px;
@@ -71,3 +79,20 @@
   #next-btn{
     margin-top: 20px;
   }
+=======
+  height: 451px;
+  left: 1143px;
+  top: 680px;
+  position: absolute;
+  background: #789eff;
+  border-radius: 9999px;
+}
+
+.filter {
+  background: rgb(247 244 244);
+  border-radius: 24px;
+  padding: 4px;
+  margin: 5px;
+  cursor: pointer;
+}
+>>>>>>> 2f9d1058583705fb332f4439e7258843e8f86fbf
