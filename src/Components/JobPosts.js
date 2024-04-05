@@ -47,9 +47,9 @@ const JobPosts = () => {
     return (
         <div style={{ display: 'flex' }} >
             <div style={{
-                width: 350,
+                width: '30%',
                 height: 41,
-                margin: '80px 53px 0 80px',
+                margin: '80px 5px 0 30px',
                 background: '#D9D9D9',
                 borderRadius: '24px 24px 0 0',
                 position: 'relative', /* Set position relative */
@@ -68,7 +68,7 @@ const JobPosts = () => {
                     filters
                 </div>
                 <div style={{
-                    width: 350,
+                    width: '100%',
                     margin: '40px 53px 0 0',
                     background: '#D9D9D9',
                     borderRadius: '0 0 24px 24px',
@@ -91,7 +91,7 @@ const JobPosts = () => {
 
                 </div>
             </div>
-            <div className='container' style={{ marginInline: 50 }}>
+            <div className='container' style={{ marginInline: 20 }}>
                 <h4 className='my-4'>Showing results number</h4>
                 <div className="row">
                     {filteredPosts.map((post) => {

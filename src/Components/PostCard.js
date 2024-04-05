@@ -25,7 +25,7 @@ const PostCard = (props) => {
     return (
 
         <div className='my-3'>
-            <div style={{ width: 'fit-content', minWidth: 950, height: '100%', paddingLeft: 24, paddingRight: 24, paddingTop: 20, paddingBottom: 20, background: 'white', borderRadius: 24, overflow: 'hidden', border: '1px rgba(0, 0, 0, 0.50) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex' }}>
+            <div style={{ width: 'fit-content', minWidth: '70%', height: '100%', paddingLeft: 24, paddingRight: 24, paddingTop: 20, paddingBottom: 20, background: 'white', borderRadius: 24, overflow: 'hidden', border: '1px rgba(0, 0, 0, 0.50) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex' }}>
                 <div style={{ flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 11, display: 'flex' }}>
                     <div style={{ justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'inline-flex' }}>
                         <div style={{ width: 61, height: 61, background: '#D9D9D9', borderRadius: 9999 }} />
