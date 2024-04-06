@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
     return (
-        <div style={{ height: '100%', position: 'relative', background: '#EBEFFF', marginLeft:'238px ' }}>
+        <div style={{ height: '100%', position: 'relative', background: '#EBEFFF', marginLeft:'50px ' }}>
             <div style={{ width: 1440, height: 840, left: 0, top: 90, position: 'absolute', background: 'white', boxShadow: '0px 8px 25px rgba(0, 0, 0, 0.25)', borderTopLeftRadius: 48, borderTopRightRadius: 48 }} />
             <div style={{ width: 432.63, left: 100, top: 521.44, position: 'absolute', color: '#171717', fontSize: 20, fontFamily: 'Mulish', fontWeight: '400', wordWrap: 'break-word' }}>Connecting Global Companies with the Best Indian Talent</div>
             <div style={{ left: 693, top: 809, position: 'absolute', color: '#171717', fontSize: 20, fontFamily: 'Mulish', fontWeight: '500', wordWrap: 'break-word' }}>Scroll down</div>
@@ -178,7 +178,7 @@ const Home = () => {
             <div style={{ left: 152.45, top: 2077.82, position: 'absolute', color: 'black', fontSize: 9.43, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Ansh verma</div>
             <div style={{ width: 305, height: 200, left: 1055, top: 1937, position: 'absolute', background: 'linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, white 100%)', borderRadius: 24 }} />
             <div style={{ width: 305, height: 200, left: 385, top: 1937, position: 'absolute', transform: 'rotate(180deg)', transformOrigin: '0 0', background: 'linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, white 100%)', borderRadius: 24 }} />
-            <div style={{ width: 1440, height: 463, left: 0, top: 2301, position: 'absolute', background: 'white' }} />
+            <div className='footer' style={{ width: 1440, height: 463, left: 0, top: 2301}} />
             <div style={{ left: 622, top: 2562, position: 'absolute' }}>
                 <div style={{ width: 176, height: 140, left: 0, top: 0, position: 'absolute' }}>
                     <div style={{ left: 4, top: 0, position: 'absolute', color: 'black', fontSize: 32, fontFamily: 'Mulish', fontWeight: '600', wordWrap: 'break-word' }}>Contact</div>
