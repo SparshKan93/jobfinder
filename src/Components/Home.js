@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
     return (
-        <div style={{ height: '100%', position: 'relative', background: '#EBEFFF', marginLeft:'70px ', marginRight: '70px' }}>
+        <div style={{ height: '100%', position: 'relative', background: '#EBEFFF', marginLeft:'6% ', marginRight: '6%' }}>
         <div style={{ width: 1440, height: 840, left: 0, top: 90, position: 'absolute', background: 'white', boxShadow: '0px 8px 25px rgba(0, 0, 0, 0.25)', borderTopLeftRadius: 48, borderTopRightRadius: 48 }} />
             <div style={{ width: 432.63, left: 100, top: 521.44, position: 'absolute', color: '#171717', fontSize: 20, fontFamily: 'Mulish', fontWeight: '400', wordWrap: 'break-word' }}>Connecting Global Companies with the Best Indian Talent</div>
             <div style={{ left: 693, top: 809, position: 'absolute', color: '#171717', fontSize: 20, fontFamily: 'Mulish', fontWeight: '500', wordWrap: 'break-word' }}>Scroll down</div>
