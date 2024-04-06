@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
     return (
-        <div style={{ height: '100%', position: 'relative', background: '#EBEFFF', marginLeft:'238px ' }}>
+        <div style={{ height: '100%', position: 'relative', background: '#EBEFFF', marginLeft:'50px ' }}>
             <div class = "element1" />
             <div style={{ width: 432.63, left: 100, top: 521.44, position: 'absolute', color: '#171717', fontSize: 20, fontFamily: 'Mulish', fontWeight: '400', wordWrap: 'break-word' }}>Connecting Global Companies with the Best Indian Talent</div>
             <div style={{ left: 693, top: 809, position: 'absolute', color: '#171717', fontSize: 20, fontFamily: 'Mulish', fontWeight: '500', wordWrap: 'break-word' }}>Scroll down</div>
@@ -37,8 +37,8 @@ const Home = () => {
                     <div style={{ width: 18.67, height: 18.67, left: 4.67, top: 4.67, position: 'absolute', border: '2px black solid' }}></div>
                 </div>
             </div> */}
-            <div class = "card-container">
-                <div class = "card">
+            <div className = "card-container">
+                <div className = "card">
                     <div style={{ width: 400, height: 280, left: 100, top: 1101, position: 'absolute' }}>
                         <div style={{ width: 400, height: 280, left: 0, top: 0, position: 'absolute', background: 'white', borderRadius: 24, border: '1px rgba(0, 0, 0, 0.50) solid' }} />
                         <div style={{ left: 16, top: 20, position: 'absolute', color: 'black', fontSize: 20, fontFamily: 'Montserrat', fontWeight: '600', wordWrap: 'break-word' }}>Design intern</div>
@@ -76,7 +76,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div class = "card">
+                <div className = "card">
                     <div style={{ width: 400, height: 280, left: 520, top: 1101, position: 'absolute' }}>
                         <div style={{ width: 400, height: 280, left: 0, top: 0, position: 'absolute', background: 'white', borderRadius: 24, border: '1px rgba(0, 0, 0, 0.50) solid' }} />
                         <div style={{ left: 16, top: 20, position: 'absolute', color: 'black', fontSize: 20, fontFamily: 'Montserrat', fontWeight: '600', wordWrap: 'break-word' }}>Design intern</div>
@@ -114,7 +114,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div class = "card">
+                <div className = "card">
                     <div style={{ width: 400, height: 280, left: 940, top: 1101, position: 'absolute' }}>
                         <div style={{ width: 400, height: 280, left: 0, top: 0, position: 'absolute', background: 'white', borderRadius: 24, border: '1px rgba(0, 0, 0, 0.50) solid' }} />
                         <div style={{ left: 16, top: 20, position: 'absolute', color: 'black', fontSize: 20, fontFamily: 'Montserrat', fontWeight: '600', wordWrap: 'break-word' }}>Design intern</div>

@@ -40,7 +40,6 @@
 
 .smallCircle {
   width: 451px;
-<<<<<<< HEAD
     height: 451px;
     left: 1143px;
     top: 680px;
@@ -79,14 +78,6 @@
   #next-btn{
     margin-top: 20px;
   }
-=======
-  height: 451px;
-  left: 1143px;
-  top: 680px;
-  position: absolute;
-  background: #789eff;
-  border-radius: 9999px;
-}
 
 .filter {
   background: rgb(247 244 244);
@@ -95,4 +86,3 @@
   margin: 5px;
   cursor: pointer;
 }
->>>>>>> 2f9d1058583705fb332f4439e7258843e8f86fbf

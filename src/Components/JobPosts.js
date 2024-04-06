@@ -1,21 +1,12 @@
-<<<<<<< HEAD
-import React , { useContext } from 'react';  
-import postContext from '../context/posts/postContext';
-import PostCard from './PostCard';
-=======
 import React, { useContext, useEffect, useState } from 'react';
 import postContext from '../context/posts/postContext';
 import PostCard from './PostCard';
 import '../App.css';
->>>>>>> 2f9d1058583705fb332f4439e7258843e8f86fbf
 
 
 const JobPosts = () => {
     const context = useContext(postContext);
-<<<<<<< HEAD
     const {posts} = context;
-=======
-    const { posts } = context;
     const [selectedFilters, setSelectedFilters] = useState([]);
     const [filteredPosts, setFilteredPosts] = useState(posts);
     const rolesSet = new Set(posts.map(post => post.role));
@@ -53,7 +44,7 @@ const JobPosts = () => {
     
 
 
->>>>>>> 2f9d1058583705fb332f4439e7258843e8f86fbf
+
     return (
         <div style={{ display: 'flex' }} >
             <div style={{
@@ -111,13 +102,10 @@ const JobPosts = () => {
                     })}
                 </div>
             </div>
-<<<<<<< HEAD
              {posts.map((post)=>{
                 return <PostCard key={post._id} post={post} />
             })} 
             
-=======
->>>>>>> 2f9d1058583705fb332f4439e7258843e8f86fbf
         </div>
     )
 }
