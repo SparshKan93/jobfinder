@@ -2,8 +2,8 @@ import React from 'react'
 
 const Home = () => {
     return (
-        <div style={{ height: '100%', position: 'relative', background: '#EBEFFF', marginLeft:'50px ' }}>
-            <div style={{ width: 1440, height: 840, left: 0, top: 90, position: 'absolute', background: 'white', boxShadow: '0px 8px 25px rgba(0, 0, 0, 0.25)', borderTopLeftRadius: 48, borderTopRightRadius: 48 }} />
+        <div style={{ height: '100%', position: 'relative', background: '#EBEFFF', marginLeft:'70px ', marginRight: '70px' }}>
+        <div style={{ width: 1440, height: 840, left: 0, top: 90, position: 'absolute', background: 'white', boxShadow: '0px 8px 25px rgba(0, 0, 0, 0.25)', borderTopLeftRadius: 48, borderTopRightRadius: 48 }} />
             <div style={{ width: 432.63, left: 100, top: 521.44, position: 'absolute', color: '#171717', fontSize: 20, fontFamily: 'Mulish', fontWeight: '400', wordWrap: 'break-word' }}>Connecting Global Companies with the Best Indian Talent</div>
             <div style={{ left: 693, top: 809, position: 'absolute', color: '#171717', fontSize: 20, fontFamily: 'Mulish', fontWeight: '500', wordWrap: 'break-word' }}>Scroll down</div>
             <div style={{ width: 44, height: 44, paddingLeft: 11, paddingRight: 11, paddingTop: 5.50, paddingBottom: 5.50, left: 637, top: 800, position: 'absolute', justifyContent: 'center', alignItems: 'center', display: 'inline-flex' }}>
@@ -178,7 +178,7 @@ const Home = () => {
             <div style={{ left: 152.45, top: 2077.82, position: 'absolute', color: 'black', fontSize: 9.43, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Ansh verma</div>
             <div style={{ width: 305, height: 200, left: 1055, top: 1937, position: 'absolute', background: 'linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, white 100%)', borderRadius: 24 }} />
             <div style={{ width: 305, height: 200, left: 385, top: 1937, position: 'absolute', transform: 'rotate(180deg)', transformOrigin: '0 0', background: 'linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, white 100%)', borderRadius: 24 }} />
-            <div className='footer' style={{ width: 1440, height: 463, left: 0, top: 2301}} />
+            <div style={{ width: 1440, height: 463, left: 0, top: 2301, position: 'absolute', background: '#acb5ad' }} />
             <div style={{ left: 622, top: 2562, position: 'absolute' }}>
                 <div style={{ width: 176, height: 140, left: 0, top: 0, position: 'absolute' }}>
                     <div style={{ left: 4, top: 0, position: 'absolute', color: 'black', fontSize: 32, fontFamily: 'Mulish', fontWeight: '600', wordWrap: 'break-word' }}>Contact</div>
@@ -209,7 +209,7 @@ const Home = () => {
                     <div style={{ width: 357, left: 0, top: 104, position: 'absolute', color: 'black', fontSize: 16, fontFamily: 'Mulish', fontWeight: '500', wordWrap: 'break-word' }}>Office 2: location - Jatioarilo, Rahania, Mahanga, Cuttack – 754204</div>
                 </div>
             </div>
-            <div style={{ left: 622, top: 2361, position: 'absolute', color: '#3B62FF', fontSize: 48, fontFamily: 'Mulish', fontWeight: '700', wordWrap: 'break-word' }}>Contact Us</div>
+            <div style={{ left: 622, top: 2361, position: 'absolute', color: 'black', fontSize: 48, fontFamily: 'Mulish', fontWeight: '700', wordWrap: 'break-word' }}>Contact Us</div>
             <div style={{ width: 412, height: 412, left: 80, top: 2329, position: 'absolute' }}>
                 <div style={{ width: 412, height: 285.48, left: 0, top: 45.32, position: 'absolute' }}>
                     <div style={{ width: 412, height: 0.21, left: 0, top: 269.78, position: 'absolute', background: '#EBEBEB' }}></div>

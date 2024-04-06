@@ -6,7 +6,7 @@ import '../App.css';
 
 const JobPosts = () => {
     const context = useContext(postContext);
-    const { posts } = context;
+    const {posts} = context;
     const [selectedFilters, setSelectedFilters] = useState([]);
     const [filteredPosts, setFilteredPosts] = useState(posts);
     const rolesSet = new Set(posts.map(post => post.role));
@@ -42,6 +42,7 @@ const JobPosts = () => {
         filterItems();
     }, [selectedFilters, posts]);
     
+
 
 
     return (
@@ -101,6 +102,10 @@ const JobPosts = () => {
                     })}
                 </div>
             </div>
+             {posts.map((post)=>{
+                return <PostCard key={post._id} post={post} />
+            })} 
+            
         </div>
     )
 }
