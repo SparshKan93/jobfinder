@@ -40,13 +40,44 @@
 
 .smallCircle {
   width: 451px;
-  height: 451px;
-  left: 1143px;
-  top: 680px;
-  position: absolute;
-  background: #789eff;
-  border-radius: 9999px;
+    height: 451px;
+    left: 1143px;
+    top: 680px;
+   position: absolute;
+   background: #789EFF;
+   border-radius: 9999px
 }
+
+.element1{
+   width: 1440px;
+   height: 840px;
+   padding: auto;
+   left: 0px;
+   top: 90px;
+   position: absolute;
+   background: white;
+   box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.25);
+   border-top-left-radius: 48px;
+   border-top-right-radius: 48px;
+   display: grid;
+  }
+
+  .card-container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card{
+    width: 30%;
+    height: 20%;
+    border: 1px solid black;
+    margin: 10px;
+  }
+
+  #prev-btn,
+  #next-btn{
+    margin-top: 20px;
+  }
 
 .filter {
   background: rgb(247 244 244);

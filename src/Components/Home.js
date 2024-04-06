@@ -2,8 +2,8 @@ import React from 'react'
 
 const Home = () => {
     return (
-        <div style={{ height: '100%', position: 'relative', background: '#EBEFFF', marginLeft:'238px ' }}>
-            <div style={{ width: 1440, height: 840, left: 0, top: 90, position: 'absolute', background: 'white', boxShadow: '0px 8px 25px rgba(0, 0, 0, 0.25)', borderTopLeftRadius: 48, borderTopRightRadius: 48 }} />
+        <div style={{ height: '100%', position: 'relative', background: '#EBEFFF', marginLeft:'50px ' }}>
+            <div class = "element1" />
             <div style={{ width: 432.63, left: 100, top: 521.44, position: 'absolute', color: '#171717', fontSize: 20, fontFamily: 'Mulish', fontWeight: '400', wordWrap: 'break-word' }}>Connecting Global Companies with the Best Indian Talent</div>
             <div style={{ left: 693, top: 809, position: 'absolute', color: '#171717', fontSize: 20, fontFamily: 'Mulish', fontWeight: '500', wordWrap: 'break-word' }}>Scroll down</div>
             <div style={{ width: 44, height: 44, paddingLeft: 11, paddingRight: 11, paddingTop: 5.50, paddingBottom: 5.50, left: 637, top: 800, position: 'absolute', justifyContent: 'center', alignItems: 'center', display: 'inline-flex' }}>
@@ -37,114 +37,125 @@ const Home = () => {
                     <div style={{ width: 18.67, height: 18.67, left: 4.67, top: 4.67, position: 'absolute', border: '2px black solid' }}></div>
                 </div>
             </div> */}
-            <div style={{ width: 400, height: 280, left: 100, top: 1101, position: 'absolute' }}>
-                <div style={{ width: 400, height: 280, left: 0, top: 0, position: 'absolute', background: 'white', borderRadius: 24, border: '1px rgba(0, 0, 0, 0.50) solid' }} />
-                <div style={{ left: 16, top: 20, position: 'absolute', color: 'black', fontSize: 20, fontFamily: 'Montserrat', fontWeight: '600', wordWrap: 'break-word' }}>Design intern</div>
-                <div style={{ left: 20, top: 243, position: 'absolute', color: '#555555', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Posted 3 days ago</div>
-                <div style={{ width: 72, height: 24, left: 17, top: 100, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex' }}>
-                    <div style={{ width: 24, height: 24, position: 'relative' }}>
-                        <div style={{ width: 14.19, height: 18.02, left: 4.90, top: 3, position: 'absolute', background: '#555555' }}></div>
+            <div className = "card-container">
+                <div className = "card">
+                    <div style={{ width: 400, height: 280, left: 100, top: 1101, position: 'absolute' }}>
+                        <div style={{ width: 400, height: 280, left: 0, top: 0, position: 'absolute', background: 'white', borderRadius: 24, border: '1px rgba(0, 0, 0, 0.50) solid' }} />
+                        <div style={{ left: 16, top: 20, position: 'absolute', color: 'black', fontSize: 20, fontFamily: 'Montserrat', fontWeight: '600', wordWrap: 'break-word' }}>Design intern</div>
+                        <div style={{ left: 20, top: 243, position: 'absolute', color: '#555555', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Posted 3 days ago</div>
+                        <div style={{ width: 72, height: 24, left: 17, top: 100, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex' }}>
+                            <div style={{ width: 24, height: 24, position: 'relative' }}>
+                                <div style={{ width: 14.19, height: 18.02, left: 4.90, top: 3, position: 'absolute', background: '#555555' }}></div>
+                            </div>
+                            <div style={{ color: '#555555', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Delhi</div>
+                        </div>
+                        <div style={{ left: 16, top: 52, position: 'absolute', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Google</div>
+                        <div style={{ width: 24, height: 24, left: 356, top: 20, position: 'absolute' }}>
+                            <div style={{ width: 12, height: 18, left: 6, top: 3, position: 'absolute', border: '1.50px black solid' }}></div>
+                        </div>
+                        <div style={{ width: 88, height: 24, left: 17, top: 140, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex' }}>
+                            <div style={{ width: 24, height: 24, position: 'relative' }}>
+                                <div style={{ width: 7, height: 7, left: 8.50, top: 12.50, position: 'absolute', background: '#555555' }}></div>
+                                <div style={{ width: 21, height: 21.34, left: 1.50, top: 0.66, position: 'absolute', background: '#555555' }}></div>
+                            </div>
+                            <div style={{ color: '#555555', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Unpaid</div>
+                        </div>
+                        <div style={{ width: 142, height: 20, left: 17, top: 180, position: 'absolute', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex' }}>
+                            <div style={{ width: 20, height: 20, position: 'relative' }}>
+                                <div style={{ width: 17, height: 13.50, left: 1.50, top: 3.50, position: 'absolute', background: '#555555' }}></div>
+                            </div>
+                            <div style={{ color: '#555555', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>1233 applicants</div>
+                        </div>
+                        <div style={{ width: 146, height: 37, left: 234, top: 223, position: 'absolute', background: '#D9D9D9', borderRadius: 8 }} />
+                        <div style={{ left: 266, top: 232, position: 'absolute', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '500', wordWrap: 'break-word' }}>Apply now</div>
+                        <div style={{ width: 99, height: 24, left: 147, top: 100, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex' }}>
+                            <div style={{ width: 24, height: 24, position: 'relative' }}>
+                                <div style={{ width: 20, height: 20, left: 2, top: 2, position: 'absolute', background: '#555555' }}></div>
+                            </div>
+                            <div style={{ color: '#555555', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Duration</div>
+                        </div>
                     </div>
-                    <div style={{ color: '#555555', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Delhi</div>
                 </div>
-                <div style={{ left: 16, top: 52, position: 'absolute', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Google</div>
-                <div style={{ width: 24, height: 24, left: 356, top: 20, position: 'absolute' }}>
-                    <div style={{ width: 12, height: 18, left: 6, top: 3, position: 'absolute', border: '1.50px black solid' }}></div>
-                </div>
-                <div style={{ width: 88, height: 24, left: 17, top: 140, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex' }}>
-                    <div style={{ width: 24, height: 24, position: 'relative' }}>
-                        <div style={{ width: 7, height: 7, left: 8.50, top: 12.50, position: 'absolute', background: '#555555' }}></div>
-                        <div style={{ width: 21, height: 21.34, left: 1.50, top: 0.66, position: 'absolute', background: '#555555' }}></div>
+                <div className = "card">
+                    <div style={{ width: 400, height: 280, left: 520, top: 1101, position: 'absolute' }}>
+                        <div style={{ width: 400, height: 280, left: 0, top: 0, position: 'absolute', background: 'white', borderRadius: 24, border: '1px rgba(0, 0, 0, 0.50) solid' }} />
+                        <div style={{ left: 16, top: 20, position: 'absolute', color: 'black', fontSize: 20, fontFamily: 'Montserrat', fontWeight: '600', wordWrap: 'break-word' }}>Design intern</div>
+                        <div style={{ left: 20, top: 243, position: 'absolute', color: '#555555', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Posted 3 days ago</div>
+                        <div style={{ width: 72, height: 24, left: 17, top: 100, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex' }}>
+                            <div style={{ width: 24, height: 24, position: 'relative' }}>
+                                <div style={{ width: 14.19, height: 18.02, left: 4.90, top: 3, position: 'absolute', background: '#555555' }}></div>
+                            </div>
+                            <div style={{ color: '#555555', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Delhi</div>
+                        </div>
+                        <div style={{ left: 16, top: 52, position: 'absolute', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Google</div>
+                        <div style={{ width: 24, height: 24, left: 356, top: 20, position: 'absolute' }}>
+                            <div style={{ width: 12, height: 18, left: 6, top: 3, position: 'absolute', border: '1.50px black solid' }}></div>
+                        </div>
+                        <div style={{ width: 88, height: 24, left: 17, top: 140, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex' }}>
+                            <div style={{ width: 24, height: 24, position: 'relative' }}>
+                                <div style={{ width: 7, height: 7, left: 8.50, top: 12.50, position: 'absolute', background: '#555555' }}></div>
+                                <div style={{ width: 21, height: 21.34, left: 1.50, top: 0.66, position: 'absolute', background: '#555555' }}></div>
+                            </div>
+                            <div style={{ color: '#555555', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Unpaid</div>
+                        </div>
+                        <div style={{ width: 142, height: 20, left: 17, top: 180, position: 'absolute', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex' }}>
+                            <div style={{ width: 20, height: 20, position: 'relative' }}>
+                                <div style={{ width: 17, height: 13.50, left: 1.50, top: 3.50, position: 'absolute', background: '#555555' }}></div>
+                            </div>
+                            <div style={{ color: '#555555', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>1233 applicants</div>
+                        </div>
+                        <div style={{ width: 146, height: 37, left: 234, top: 223, position: 'absolute', background: '#D9D9D9', borderRadius: 8 }} />
+                        <div style={{ left: 266, top: 232, position: 'absolute', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '500', wordWrap: 'break-word' }}>Apply now</div>
+                        <div style={{ width: 99, height: 24, left: 147, top: 100, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex' }}>
+                            <div style={{ width: 24, height: 24, position: 'relative' }}>
+                                <div style={{ width: 20, height: 20, left: 2, top: 2, position: 'absolute', background: '#555555' }}></div>
+                            </div>
+                            <div style={{ color: '#555555', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Duration</div>
+                        </div>
                     </div>
-                    <div style={{ color: '#555555', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Unpaid</div>
                 </div>
-                <div style={{ width: 142, height: 20, left: 17, top: 180, position: 'absolute', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex' }}>
-                    <div style={{ width: 20, height: 20, position: 'relative' }}>
-                        <div style={{ width: 17, height: 13.50, left: 1.50, top: 3.50, position: 'absolute', background: '#555555' }}></div>
+                <div className = "card">
+                    <div style={{ width: 400, height: 280, left: 940, top: 1101, position: 'absolute' }}>
+                        <div style={{ width: 400, height: 280, left: 0, top: 0, position: 'absolute', background: 'white', borderRadius: 24, border: '1px rgba(0, 0, 0, 0.50) solid' }} />
+                        <div style={{ left: 16, top: 20, position: 'absolute', color: 'black', fontSize: 20, fontFamily: 'Montserrat', fontWeight: '600', wordWrap: 'break-word' }}>Design intern</div>
+                        <div style={{ left: 20, top: 243, position: 'absolute', color: '#555555', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Posted 3 days ago</div>
+                        <div style={{ width: 72, height: 24, left: 17, top: 100, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex' }}>
+                            <div style={{ width: 24, height: 24, position: 'relative' }}>
+                                <div style={{ width: 14.19, height: 18.02, left: 4.90, top: 3, position: 'absolute', background: '#555555' }}></div>
+                            </div>
+                            <div style={{ color: '#555555', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Delhi</div>
+                        </div>
+                        <div style={{ left: 16, top: 52, position: 'absolute', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Google</div>
+                        <div style={{ width: 24, height: 24, left: 356, top: 20, position: 'absolute' }}>
+                            <div style={{ width: 12, height: 18, left: 6, top: 3, position: 'absolute', border: '1.50px black solid' }}></div>
+                        </div>
+                        <div style={{ width: 88, height: 24, left: 17, top: 140, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex' }}>
+                            <div style={{ width: 24, height: 24, position: 'relative' }}>
+                                <div style={{ width: 7, height: 7, left: 8.50, top: 12.50, position: 'absolute', background: '#555555' }}></div>
+                                <div style={{ width: 21, height: 21.34, left: 1.50, top: 0.66, position: 'absolute', background: '#555555' }}></div>
+                            </div>
+                            <div style={{ color: '#555555', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Unpaid</div>
+                        </div>
+                        <div style={{ width: 142, height: 20, left: 17, top: 180, position: 'absolute', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex' }}>
+                            <div style={{ width: 20, height: 20, position: 'relative' }}>
+                                <div style={{ width: 17, height: 13.50, left: 1.50, top: 3.50, position: 'absolute', background: '#555555' }}></div>
+                            </div>
+                            <div style={{ color: '#555555', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>1233 applicants</div>
+                        </div>
+                        <div style={{ width: 146, height: 37, left: 234, top: 223, position: 'absolute', background: '#D9D9D9', borderRadius: 8 }} />
+                        <div style={{ left: 266, top: 232, position: 'absolute', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '500', wordWrap: 'break-word' }}>Apply now</div>
+                        <div style={{ width: 99, height: 24, left: 147, top: 100, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex' }}>
+                            <div style={{ width: 24, height: 24, position: 'relative' }}>
+                                <div style={{ width: 20, height: 20, left: 2, top: 2, position: 'absolute', background: '#555555' }}></div>
+                            </div>
+                            <div style={{ color: '#555555', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Duration</div>
+                        </div>
                     </div>
-                    <div style={{ color: '#555555', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>1233 applicants</div>
                 </div>
-                <div style={{ width: 146, height: 37, left: 234, top: 223, position: 'absolute', background: '#D9D9D9', borderRadius: 8 }} />
-                <div style={{ left: 266, top: 232, position: 'absolute', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '500', wordWrap: 'break-word' }}>Apply now</div>
-                <div style={{ width: 99, height: 24, left: 147, top: 100, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex' }}>
-                    <div style={{ width: 24, height: 24, position: 'relative' }}>
-                        <div style={{ width: 20, height: 20, left: 2, top: 2, position: 'absolute', background: '#555555' }}></div>
-                    </div>
-                    <div style={{ color: '#555555', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Duration</div>
-                </div>
+                <button id = "prev-btn">Previous</button>
+                <button id = "next-btn">Next</button>
             </div>
-            <div style={{ width: 400, height: 280, left: 520, top: 1101, position: 'absolute' }}>
-                <div style={{ width: 400, height: 280, left: 0, top: 0, position: 'absolute', background: 'white', borderRadius: 24, border: '1px rgba(0, 0, 0, 0.50) solid' }} />
-                <div style={{ left: 16, top: 20, position: 'absolute', color: 'black', fontSize: 20, fontFamily: 'Montserrat', fontWeight: '600', wordWrap: 'break-word' }}>Design intern</div>
-                <div style={{ left: 20, top: 243, position: 'absolute', color: '#555555', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Posted 3 days ago</div>
-                <div style={{ width: 72, height: 24, left: 17, top: 100, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex' }}>
-                    <div style={{ width: 24, height: 24, position: 'relative' }}>
-                        <div style={{ width: 14.19, height: 18.02, left: 4.90, top: 3, position: 'absolute', background: '#555555' }}></div>
-                    </div>
-                    <div style={{ color: '#555555', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Delhi</div>
-                </div>
-                <div style={{ left: 16, top: 52, position: 'absolute', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Google</div>
-                <div style={{ width: 24, height: 24, left: 356, top: 20, position: 'absolute' }}>
-                    <div style={{ width: 12, height: 18, left: 6, top: 3, position: 'absolute', border: '1.50px black solid' }}></div>
-                </div>
-                <div style={{ width: 88, height: 24, left: 17, top: 140, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex' }}>
-                    <div style={{ width: 24, height: 24, position: 'relative' }}>
-                        <div style={{ width: 7, height: 7, left: 8.50, top: 12.50, position: 'absolute', background: '#555555' }}></div>
-                        <div style={{ width: 21, height: 21.34, left: 1.50, top: 0.66, position: 'absolute', background: '#555555' }}></div>
-                    </div>
-                    <div style={{ color: '#555555', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Unpaid</div>
-                </div>
-                <div style={{ width: 142, height: 20, left: 17, top: 180, position: 'absolute', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex' }}>
-                    <div style={{ width: 20, height: 20, position: 'relative' }}>
-                        <div style={{ width: 17, height: 13.50, left: 1.50, top: 3.50, position: 'absolute', background: '#555555' }}></div>
-                    </div>
-                    <div style={{ color: '#555555', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>1233 applicants</div>
-                </div>
-                <div style={{ width: 146, height: 37, left: 234, top: 223, position: 'absolute', background: '#D9D9D9', borderRadius: 8 }} />
-                <div style={{ left: 266, top: 232, position: 'absolute', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '500', wordWrap: 'break-word' }}>Apply now</div>
-                <div style={{ width: 99, height: 24, left: 147, top: 100, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex' }}>
-                    <div style={{ width: 24, height: 24, position: 'relative' }}>
-                        <div style={{ width: 20, height: 20, left: 2, top: 2, position: 'absolute', background: '#555555' }}></div>
-                    </div>
-                    <div style={{ color: '#555555', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Duration</div>
-                </div>
-            </div>
-            <div style={{ width: 400, height: 280, left: 940, top: 1101, position: 'absolute' }}>
-                <div style={{ width: 400, height: 280, left: 0, top: 0, position: 'absolute', background: 'white', borderRadius: 24, border: '1px rgba(0, 0, 0, 0.50) solid' }} />
-                <div style={{ left: 16, top: 20, position: 'absolute', color: 'black', fontSize: 20, fontFamily: 'Montserrat', fontWeight: '600', wordWrap: 'break-word' }}>Design intern</div>
-                <div style={{ left: 20, top: 243, position: 'absolute', color: '#555555', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Posted 3 days ago</div>
-                <div style={{ width: 72, height: 24, left: 17, top: 100, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex' }}>
-                    <div style={{ width: 24, height: 24, position: 'relative' }}>
-                        <div style={{ width: 14.19, height: 18.02, left: 4.90, top: 3, position: 'absolute', background: '#555555' }}></div>
-                    </div>
-                    <div style={{ color: '#555555', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Delhi</div>
-                </div>
-                <div style={{ left: 16, top: 52, position: 'absolute', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Google</div>
-                <div style={{ width: 24, height: 24, left: 356, top: 20, position: 'absolute' }}>
-                    <div style={{ width: 12, height: 18, left: 6, top: 3, position: 'absolute', border: '1.50px black solid' }}></div>
-                </div>
-                <div style={{ width: 88, height: 24, left: 17, top: 140, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex' }}>
-                    <div style={{ width: 24, height: 24, position: 'relative' }}>
-                        <div style={{ width: 7, height: 7, left: 8.50, top: 12.50, position: 'absolute', background: '#555555' }}></div>
-                        <div style={{ width: 21, height: 21.34, left: 1.50, top: 0.66, position: 'absolute', background: '#555555' }}></div>
-                    </div>
-                    <div style={{ color: '#555555', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Unpaid</div>
-                </div>
-                <div style={{ width: 142, height: 20, left: 17, top: 180, position: 'absolute', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex' }}>
-                    <div style={{ width: 20, height: 20, position: 'relative' }}>
-                        <div style={{ width: 17, height: 13.50, left: 1.50, top: 3.50, position: 'absolute', background: '#555555' }}></div>
-                    </div>
-                    <div style={{ color: '#555555', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>1233 applicants</div>
-                </div>
-                <div style={{ width: 146, height: 37, left: 234, top: 223, position: 'absolute', background: '#D9D9D9', borderRadius: 8 }} />
-                <div style={{ left: 266, top: 232, position: 'absolute', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '500', wordWrap: 'break-word' }}>Apply now</div>
-                <div style={{ width: 99, height: 24, left: 147, top: 100, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex' }}>
-                    <div style={{ width: 24, height: 24, position: 'relative' }}>
-                        <div style={{ width: 20, height: 20, left: 2, top: 2, position: 'absolute', background: '#555555' }}></div>
-                    </div>
-                    <div style={{ color: '#555555', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Duration</div>
-                </div>
-            </div>
+            
             <div style={{ left: 100, top: 1061, position: 'absolute', color: 'black', fontSize: 16, fontFamily: 'Mulish', fontWeight: '600', wordWrap: 'break-word' }}>Here you can see the post that are posted recently</div>
             <div style={{ width: 1440, height: 220, left: 0, top: 1481, position: 'absolute', background: '#D9D9D9' }} />
             <div style={{ left: 687, top: 1571, position: 'absolute', color: 'black', fontSize: 32, fontFamily: 'Mulish', fontWeight: '700', wordWrap: 'break-word' }}>Ads</div>
