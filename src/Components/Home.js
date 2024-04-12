@@ -29,7 +29,7 @@ const Home = () => {
             </div> */}
             <img style={{ width: 400, height: 400, left: 500, top: 200, position: 'absolute' }} alt="dfsgfggdg" src="https://s3-alpha-sig.figma.com/img/2e84/c72c/757e0c5e044e238cb336edb257d45eac?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OzryT-caKcFNcjqi4i5gMSOxqiIfTcCboiNIIs81JBuSPYbMlAeGBuzvkA847w~7C6Gjcb1rkaF34kk8-0M99PpudTMb79A49Lm7tj34P6NCAqZqBXpZcsyrnD89fQnrd7EfyWuSX8caJwLQYDAWxd5mWdcCxvg8asuSdABTpMLwtj6eWdUuo5DYjyAZZZ~gnAsSLyo9nzmPleBdXqkft3fftvNnVlO5Hz8QNQfuIvyzBk3oLiGAQUemR8LLz8ozvWnqi1LrkAWRvsyyApG6XSE~DhrMclKbla7mY2UiPormZs3EH-V~pIi1Vp2FZ2AoRwTki5iERc1YfYkz9NKeGg__" />
             {/* <div style={{ width: 1240, height: 0, left: 100, top: 99.50, position: 'absolute', border: '1px rgba(0, 0, 0, 0.30) solid' }}></div> */}
-            <div style={{ left: 100, top: 1001, position: 'absolute', color: 'black', fontSize: 32, fontFamily: 'Mulish', fontWeight: '700', wordWrap: 'break-word' }}>Recent Posts</div>
+            <div style={{ left: 40, top: 1001, position: 'absolute', color: 'black', fontSize: 32, fontFamily: 'Mulish', fontWeight: '700', wordWrap: 'break-word' }}>Recent Posts</div>
             {/* <div style={{ width: 287, height: 38, left: 758, top: 42, position: 'absolute' }}>
                 <div style={{ width: 287, height: 38, left: 0, top: 0, position: 'absolute', background: '#EEEEEE', borderRadius: 12 }} />
                 <div style={{ left: 12, top: 9, position: 'absolute', color: 'rgba(0, 0, 0, 0.70)', fontSize: 16, fontFamily: 'Mulish', fontWeight: '500', wordWrap: 'break-word' }}>Search here</div>
@@ -37,8 +37,8 @@ const Home = () => {
                     <div style={{ width: 18.67, height: 18.67, left: 4.67, top: 4.67, position: 'absolute', border: '2px black solid' }}></div>
                 </div>
             </div> */}
-            <div style={{ width: 400, height: 280, left: 100, top: 1101, position: 'absolute' }}>
-                <div style={{ width: 400, height: 280, left: 0, top: 0, position: 'absolute', background: 'white', borderRadius: 24, border: '1px rgba(0, 0, 0, 0.50) solid' }} />
+            <div style={{ width: 300, height: 240, left: 40, top: 1101, position: 'absolute' }}>
+                <div style={{ width: 300, height: 240, left: 0, top: 0, position: 'absolute', background: 'white', borderRadius: 24, border: '1px rgba(0, 0, 0, 0.50) solid' }} />
                 <div style={{ left: 16, top: 20, position: 'absolute', color: 'black', fontSize: 20, fontFamily: 'Montserrat', fontWeight: '600', wordWrap: 'break-word' }}>Design intern</div>
                 <div style={{ left: 20, top: 243, position: 'absolute', color: '#555555', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Posted 3 days ago</div>
                 <div style={{ width: 72, height: 24, left: 17, top: 100, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex' }}>
@@ -145,7 +145,7 @@ const Home = () => {
                     <div style={{ color: '#555555', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Duration</div>
                 </div>
             </div>
-            <div style={{ left: 100, top: 1061, position: 'absolute', color: 'black', fontSize: 16, fontFamily: 'Mulish', fontWeight: '600', wordWrap: 'break-word' }}>Here you can see the post that are posted recently</div>
+            <div style={{ left: 40, top: 1061, position: 'absolute', color: 'black', fontSize: 16, fontFamily: 'Mulish', fontWeight: '600', wordWrap: 'break-word' }}>Here you can see the post that are posted recently</div>
             <div style={{ width: 950, height: 220, left: 0, top: 1481, position: 'absolute', background: '#D9D9D9' }} />
             <div style={{ left: 487, top: 1571, position: 'absolute', color: 'black', fontSize: 32, fontFamily: 'Mulish', fontWeight: '700', wordWrap: 'break-word' }}>Ads</div>
             <div style={{ left: 407, top: 1783, position: 'absolute', color: '#3B62FF', fontSize: 32, fontFamily: 'Montserrat', fontWeight: '600', textDecoration: 'underline', wordWrap: 'break-word' }}>Users reviews</div>
@@ -177,8 +177,8 @@ const Home = () => {
             <div style={{ left: 108.45, top: 2077.82, position: 'absolute', color: 'black', fontSize: 9.43, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Ansh verma</div>
             <div style={{ width: 305, height: 200, left: 755, top: 1937, position: 'absolute', background: 'linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, white 100%)', borderRadius: 24 }} />
             <div style={{ width: 305, height: 200, left: 385, top: 1937, position: 'absolute', transform: 'rotate(180deg)', transformOrigin: '0 0', background: 'linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, white 100%)', borderRadius: 24 }} />
-            <div style={{ width: 1440, height: 463, left: 0, top: 2301, position: 'absolute', background: '#acb5ad' }} />
-            <div style={{ left: 622, top: 2562, position: 'absolute' }}>
+            <div style={{ width: 1040, height: 463, left: 0, top: 2301, position: 'absolute', background: '#acb5ad' }} />
+            <div style={{ left: 122, top: 2562, position: 'absolute' }}>
                 <div style={{ width: 176, height: 140, left: 0, top: 0, position: 'absolute' }}>
                     <div style={{ left: 4, top: 0, position: 'absolute', color: 'black', fontSize: 32, fontFamily: 'Mulish', fontWeight: '600', wordWrap: 'break-word' }}>Contact</div>
                     <div style={{ width: 176, height: 84, left: 0, top: 56, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex' }}>
@@ -208,8 +208,8 @@ const Home = () => {
                     <div style={{ width: 357, left: 0, top: 104, position: 'absolute', color: 'black', fontSize: 16, fontFamily: 'Mulish', fontWeight: '500', wordWrap: 'break-word' }}>Office 2: location - Jatioarilo, Rahania, Mahanga, Cuttack – 754204</div>
                 </div>
             </div>
-            <div style={{ left: 622, top: 2361, position: 'absolute', color: 'black', fontSize: 48, fontFamily: 'Mulish', fontWeight: '700', wordWrap: 'break-word' }}>Contact Us</div>
-            <div style={{ width: 734, left: 622, top: 2462, position: 'absolute', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur ma</div>
+            <div style={{ left: 122, top: 2361, position: 'absolute', color: 'black', fontSize: 48, fontFamily: 'Mulish', fontWeight: '700', wordWrap: 'break-word' }}>Contact Us</div>
+            <div style={{ width: 734, left: 22, top: 2462, position: 'absolute', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word' }}>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur ma</div>
             {/* <div style={{ width: 30, height: 0, left: 1138, top: 79, position: 'absolute', border: '2px #3B62FF solid' }}></div> */}
         </div>
     )
